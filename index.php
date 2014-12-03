@@ -13,6 +13,7 @@
 <body>
     <i class="wrap"></i>
     <div class="main">
+        <img src="https://avatars3.githubusercontent.com/u/2059754?v=3&s=460" alt="" class="me">
         <h1>Heyoo, I'm Gabriel.</h1>
         <h2>I code for the web.</h2>
 

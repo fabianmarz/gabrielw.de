@@ -41,6 +41,22 @@ h1, h2 {
     font-size: 96px;
 }
 
+.me {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 9px rgba(2,2,2, .2);
+    box-shadow: 2px 2px 9px rgba(2,2,2, .2);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: filter .2s;
+}
+
+.me:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
 h2 {
     font-size: 36px;
     font-weight: 300;
@@ -102,7 +118,7 @@ h2 {
     h2 {font-size: 16px; }
 }
 
-@media (max-width:  350px)  {
+@media (max-width:  320px)  {
     h1{font-size: 40px;}
 }
 
